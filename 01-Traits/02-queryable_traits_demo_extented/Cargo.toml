@@ -1,0 +1,6 @@
+[package]
+name = "queryable_traits_demo_extented"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
