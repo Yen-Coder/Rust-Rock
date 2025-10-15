@@ -1,0 +1,8 @@
+[package]
+name = "sdl2-bouncing-ball"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sdl2 = "0.35.2"
+rand = "0.8.5"

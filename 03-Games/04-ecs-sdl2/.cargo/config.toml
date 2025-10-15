@@ -1,0 +1,10 @@
+[target.aarch64-apple-darwin]
+rustflags = [
+    "-L", "/opt/homebrew/lib",
+    "-l", "SDL2",
+    "-l", "SDL2_image"
+]
+
+[env]
+SDL2_LIBRARY_PATH = "/opt/homebrew/lib"
+SDL2_INCLUDE_PATH = "/opt/homebrew/include/SDL2"

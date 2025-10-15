@@ -1,0 +1,9 @@
+[package]
+name = "ecs-sdl2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sdl2 = { version = "0.38.0", features = ["image"] }
+specs = "0.14"
+specs-derive = "0.4"
